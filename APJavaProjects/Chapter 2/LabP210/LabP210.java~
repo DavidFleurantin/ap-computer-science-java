@@ -1,0 +1,17 @@
+
+// Programmer: David Fleurantin
+// Date: September 17, 2014
+
+public class LabP210 {
+	
+	public static void main(String[]args)
+	{
+		String greeting = "Hello, World!";                                       // Identifier declared Hello, World!
+		
+		greeting = greeting.replace("o", "e" );                   //  every o is replaced by e and result is held in temporary identifier
+		
+		System.out.print(greeting.replace("Helle", "Holle"));                  //   first e in Helle replace with o
+	
+	}
+
+}

@@ -1,0 +1,23 @@
+
+// Programmer: David Fleurantin
+// Date: September 17, 2014
+
+import java.util.Random;
+
+public class LabP28 {
+
+ public static void main(String[] args) {
+  
+  Random lottery = new Random();                                            // Random Class Declared
+  
+  System.out.println("Play this combination. It will make you rich!");
+  
+  System.out.println(lottery.nextInt(49) +1); 
+  System.out.println(lottery.nextInt(49) +1);
+  System.out.println(lottery.nextInt(49) +1);                               // Lottery Numbers = 6 six number (1-49)
+  System.out.println(lottery.nextInt(49) +1);
+  System.out.println(lottery.nextInt(49) +1);
+  System.out.println(lottery.nextInt(49) +1);
+ }
+
+}
